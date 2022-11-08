@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Random;
 
 public class Main {
@@ -11,5 +12,10 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = rand.nextInt(100) + 1;
         }
+        doAnotherThing();
+    }
+
+    public static List<Integer> doAnotherThing() {
+
     }
 }
